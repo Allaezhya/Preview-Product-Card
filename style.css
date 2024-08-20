@@ -76,3 +76,23 @@ body {
 	text-decoration: line-through;
 	color: hsl(228, 12%, 48%);
 }
+
+a {
+	background-color: hsl(158, 36%, 37%);
+	display: flex;
+	margin-top: 1em;
+	padding: 0.9em 25%;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 0.5em;
+}
+
+.logo {
+	margin-right: 0.4em;
+}
+
+a:hover {
+	background-color: hsl(158, 35%, 21%);
+}
